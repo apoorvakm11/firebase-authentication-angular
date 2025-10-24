@@ -23,12 +23,12 @@ import { WelcomePageComponent } from './components/welcome-page/welcome-page.com
   providers: [
     // place your Firebase configuration here
     provideFirebaseApp(() => initializeApp({
-      "projectId": "angular-firebase-auth-26df4",
-      "appId": "1:904672844081:web:6fd1ab0652448c572cf810",
-      "storageBucket": "angular-firebase-auth-26df4.firebasestorage.app",
-      "apiKey": "AIzaSyBScQ-1FWT65bCz09iH1tI5AeTOlYwbZrw",
-      "authDomain": "angular-firebase-auth-26df4.firebaseapp.com",
-      "messagingSenderId": "904672844081"
+      "projectId": "angular-firebase-auth",
+      "appId": "your-id",
+      "storageBucket": "add-your",
+      "apiKey": "your-key",
+      "authDomain": "add-your",
+      "messagingSenderId": "add-your"
     })),
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
